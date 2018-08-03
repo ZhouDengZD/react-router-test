@@ -1,0 +1,97 @@
+ul,li,div{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-size: 14px;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.container{
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* header-start */
+.header{
+  display: block;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding-right:150px ;
+}
+.header img{
+  margin-top: 8px;
+  margin-left: 100px;
+}
+.header li{
+  height: 50px;
+  line-height: 50px;
+  float: right;
+  margin-left: 20px;
+  list-style-type: none;
+}
+.header a{
+  font-size: 15px;
+}
+.header a:hover{
+  color: rgb(155, 123, 123);
+}
+/* header-end */
+
+/* main-start */
+.main{
+  width: 100%;
+  height: 400px;
+}
+.main-container{
+  width: 100%;
+  height: 400px;
+}
+.aside{
+  width: 25%;
+  height: 400px;
+  float: left;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+.aside li{
+  height: 40px;
+  line-height: 40px;
+  list-style-type: none;
+}
+.aside a:hover{
+  color: blue;
+}
+.active{
+  color: blue;
+}
+
+.tab-child{
+  margin-left: 20px;
+}
+Summary-aside li{
+  margin-left: 20px;
+}
+.Docs-aside li span{
+  display: inline-block;
+  margin-left:150px; 
+}
+.main-content{
+  float: left;
+  width: 75%;
+  height: 400px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.main-content-text{
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+/* main-end */
